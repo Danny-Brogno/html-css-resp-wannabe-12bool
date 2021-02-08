@@ -13,8 +13,6 @@ img {
   height: 200px;
 }
 
-/* THIS IS THE FIRST SECTION */
-
 #lezioni .row img {
   /* per centrare orizzontalmente */
   display: block;
@@ -22,26 +20,18 @@ img {
   margin-left: auto;
 }
 
-#lezioni {
-  text-align: center;
-}
-
-/* THIS IS THE SECOND SECTION */
-
-#steps {
-  text-align: center;
-}
-
-/* THIS IS THE THIRD SECTION */
-
-#why {
-  text-align: center;
-}
-
 #why .row img {
   background-color: #428bca;
   border-radius: 50%;
-  padding: 30px
+  padding: 5%;
+}
+
+#lezioni, #steps, #why {
+  text-align: center;
+}
+
+.pad {
+  padding-top: 8%;
 }
 
 /* this is the media query section */
@@ -62,7 +52,6 @@ img {
 
   #steps .row>.col-lg-4 {
     padding-bottom: 3%;
-    float: left;
   }
 
 }
