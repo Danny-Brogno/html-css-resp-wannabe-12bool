@@ -13,7 +13,7 @@ img {
   height: 200px;
 }
 
-/* THIS IS THE 2PIC SECTION */
+/* THIS IS THE FIRST SECTION */
 
 #lezioni .row img {
   /* per centrare orizzontalmente */
@@ -26,18 +26,13 @@ img {
   text-align: center;
 }
 
-/* THIS IS THE 3PIC SECTION */
-
-#steps .row>.col-lg-4 {
-  float: left;
-  width: 33%;
-}
+/* THIS IS THE SECOND SECTION */
 
 #steps {
   text-align: center;
 }
 
-/* THIS IS THE BIG PICTURE SECTION */
+/* THIS IS THE THIRD SECTION */
 
 #why {
   text-align: center;
@@ -49,13 +44,28 @@ img {
   padding: 30px
 }
 
-
 /* this is the media query section */
 
+/* FIRST SECTION */
 
+@media all and (max-width: 767px) {
 
+  #lezioni .row>.col-xs-12 {
+    padding-bottom: 3%;
+    padding-top: 3%;
+  }
+}
 
+/* SECOND SECTION */
 
+@media all and (min-width: 768px) and (max-width: 991px) {
+
+  #steps .row>.col-lg-4 {
+    padding-bottom: 3%;
+    float: left;
+  }
+
+}
 
 /* THIRD SECTION */
 
